@@ -25,5 +25,6 @@ def decryptedText(cipherText):
         decryptedMsg += key_list[position]
     return decryptedMsg
 
+
 cipherText = input("Enter the cipher text : ")
 print("Decrypted Text : " + decryptedText(cipherText))
